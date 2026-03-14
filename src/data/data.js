@@ -1,0 +1,77 @@
+export const data = {
+  name: "Akash Mehar",
+  role: "Full Stack Developer",
+  status: "Open to work",
+  location: "Pune, IN",
+  email: "akashmehar9021@gmail.com",
+  phone: "+91 9021 891 601",
+  github: "https://github.com/Akashmehr",
+  bio: "I build fast, scalable web apps from pixel to server. Specializing in the MERN stack with a focus on clean architecture, real-time systems, and developer experience.",
+
+  stack: [
+    { label: "React.js", type: "fe" },
+    { label: "TypeScript", type: "fe" },
+    { label: "Redux", type: "fe" },
+    { label: "Tailwind CSS", type: "fe" },
+    { label: "Node.js", type: "be" },
+    { label: "Express.js", type: "be" },
+    { label: "Python", type: "be" },
+    { label: "Socket.io", type: "be" },
+    { label: "RabbitMQ", type: "be" },
+    { label: "MongoDB", type: "db" },
+    { label: "MySQL", type: "db" },
+    { label: "REST APIs", type: "db" },
+    { label: "Docker", type: "tools" },
+    { label: "Git", type: "tools" },
+    { label: "Postman", type: "tools" },
+    { label: "JWT", type: "tools" },
+  ],
+
+  experience: [
+    {
+      company: "Geta AI",
+      role: "Full Stack Developer Intern",
+      period: "Nov 2025 — Present",
+      location: "Remote",
+      desc: "Working on AI-powered product interfaces using React + TypeScript on the frontend and Node.js/Python APIs on the backend.",
+      bullets: [
+        "Building and maintaining UI components with React.js & TypeScript",
+        "Integrating REST APIs for dynamic data management",
+        "Backend API development with Node.js and Python",
+        "Git-based workflow — branching, PRs, code reviews",
+        "Debugging & performance testing across the full stack",
+      ],
+      tags: ["React", "TypeScript", "Node.js", "Python", "REST"],
+    },
+  ],
+
+  projects: [
+    {
+      num: "01",
+      name: "SecureAuth",
+      tagline: "Full-stack JWT authentication system",
+      desc: "Production-ready auth system with signup, login, email verification, and password reset. Built with security-first principles — hashed passwords, secure JWT, env variable isolation.",
+      stack: ["React.js", "Node.js", "Express", "MongoDB", "JWT", "Tailwind"],
+      features: ["JWT Auth", "Email Verify", "Password Reset", "Hashed Passwords", "Env Isolation"],
+      accent: "#00e599",
+      link: "#",
+    },
+    {
+      num: "02",
+      name: "ChatFlow",
+      tagline: "Real-time chat with Socket.io",
+      desc: "Real-time messaging app with room management, connection state handling, and modular architecture. Designed for scalability using ES6+ and Express middleware patterns.",
+      stack: ["Node.js", "Express", "Socket.io", "JavaScript ES6+"],
+      features: ["Real-time WS", "Room System", "State Mgmt", "CORS Config", "Modular Arch"],
+      accent: "#3b82f6",
+      link: "#",
+    },
+  ],
+
+  education: {
+    degree: "B.E. Information Technology",
+    period: "2019 – 2023",
+    gpa: "7.59",
+    cert: "STEP in MERN Stack — React · Node · Express · MongoDB",
+  },
+};
