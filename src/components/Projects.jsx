@@ -30,8 +30,6 @@ export default function Projects() {
                 <div className={s.termDots}>
                   <span /><span /><span />
                 </div>
-                <span className={s.termTitle}>{p.name.toLowerCase()}.jsx</span>
-                <span className={s.termNum}>{p.num}</span>
               </div>
 
               <div className={s.body}>
