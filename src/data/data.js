@@ -32,7 +32,7 @@ export const data = {
       company: "Geta AI",
       role: "Full Stack Developer Intern",
       period: "Nov 2025 — Present",
-      location: "Remote",
+      location: "Onsite",
       desc: "Working on AI-powered product interfaces using React + TypeScript on the frontend and Node.js/Python APIs on the backend.",
       bullets: [
         "Building and maintaining UI components with React.js & TypeScript",
