@@ -47,17 +47,27 @@ export const data = {
 
   projects: [
     {
-      num: "01",
+      num: "03",
+      name: "AI Code Reviewer",
+      tagline: "Intelligent code analysis powered by Claude",
+      desc: "AI-powered code review tool that analyzes your code for bugs, security vulnerabilities, performance issues, and style improvements. Get instant, actionable feedback with line-by-line suggestions — like having a senior engineer review your PRs 24/7.",
+      stack: ["React.js", "Node.js", "Express", "Claude API", "Tailwind", "Anthropic SDK"],
+      features: ["Bug Detection", "Security Audit", "Performance Tips", "Style Linting", "Multi-Language"],
+      accent: "#a855f7",
+      link: "https://ai-code-reviewer-three-tawny.vercel.app/login",
+    },
+    {
+      num: "03",
       name: "SecureAuth",
       tagline: "Full-stack JWT authentication system",
       desc: "Production-ready auth system with signup, login, email verification, and password reset. Built with security-first principles — hashed passwords, secure JWT, env variable isolation.",
       stack: ["React.js", "Node.js", "Express", "MongoDB", "JWT", "Tailwind"],
       features: ["JWT Auth", "Email Verify", "Password Reset", "Hashed Passwords", "Env Isolation"],
       accent: "#00e599",
-      link: "#",
+      link: "https://github.com/Akashmehr/System-Authentication",
     },
     {
-      num: "02",
+      num: "03",
       name: "ChatFlow",
       tagline: "Real-time chat with Socket.io",
       desc: "Real-time messaging app with room management, connection state handling, and modular architecture. Designed for scalability using ES6+ and Express middleware patterns.",
