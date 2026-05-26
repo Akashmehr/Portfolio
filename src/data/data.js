@@ -47,7 +47,7 @@ export const data = {
 
   projects: [
     {
-      num: "03",
+      num: "01",
       name: "AI Code Reviewer",
       tagline: "Intelligent code analysis powered by Claude",
       desc: "AI-powered code review tool that analyzes your code for bugs, security vulnerabilities, performance issues, and style improvements. Get instant, actionable feedback with line-by-line suggestions — like having a senior engineer review your PRs 24/7.",
