@@ -15,7 +15,7 @@ export default function About() {
 
         <div className={s.topRow}>
           <div className={s.bio}>
-            <div className={s.label}><span className={s.labelLine} /> aboutttttttttt</div>
+            <div className={s.label}><span className={s.labelLine} /> about</div>
             <h2 className={s.title}>About <span>Me</span></h2>
             <p className={s.text}>{data.bio}</p>
             <p className={s.text} style={{ marginTop: '1rem' }}>
